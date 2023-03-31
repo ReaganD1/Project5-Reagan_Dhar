@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PokeBlue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Gen1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="22dp"
+        android:text="Generation 1 Pokemon"
+        android:textColor="@color/PokeYellow"
+        android:textStyle="bold"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="248dp"
+        android:layout_height="59dp"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textColor="@color/PokeYellow"
+        android:textAlignment="center"
+        android:fontFamily="@font/kumar_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/typeView"
+        android:layout_width="248dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="404dp"
+        android:text="Type"
+        android:textSize="20dp"
+        android:fontFamily="@font/kumar_one"
+        android:textColor="@color/PokeYellow"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/abilityView"
+        android:layout_width="248dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="472dp"
+        android:text="Ability"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/kumar_one"
+        android:textColor="@color/PokeYellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="Click For pokemon info"
+        android:textColor="@color/PokeYellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
