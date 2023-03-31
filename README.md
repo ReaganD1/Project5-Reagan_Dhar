@@ -8,7 +8,7 @@ Time spent: **13** hours spent in total
 
 ## Summary
 
-**Pokemon API** is an android app that **displays a random genration 1 pokemon with their image, name, type and their signiture ability.**
+**Pokemon API** is an android app that **displays a random Generation I pokemon with their image, name, type, and signature ability.**
 
 If I had to describe this project in three (3) emojis, they would be: **👌🏻👍🏻🙂**
 
@@ -51,7 +51,7 @@ GIF created with **Kap**
 
 ## Notes
 
-I leanred how to import API documentation and dislay the informations from the API.
+I learned how to import API documentation and display the information from the API.
 
 ## License
 
